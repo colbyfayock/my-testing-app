@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "test": "start-server-and-test dev 3000 cy:open"
   },
   "dependencies": {
     "next": "10.0.3",
@@ -14,6 +15,7 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "cypress": "^6.0.1"
+    "cypress": "^6.0.1",
+    "start-server-and-test": "^1.11.6"
   }
 }
